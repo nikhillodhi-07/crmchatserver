@@ -1,17 +1,14 @@
 {
-  "name": "crmui",
-  "version": "0.1.0",
+  "name": "socket-server",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "socket-server": "node socketServer.js"
+    "start": "node socketserver.js",
+    "build": "echo 'No build needed'"
   },
   "dependencies": {
-    "cors": "^2.8.5",
     "express": "^5.1.0",
-    "socket.io": "^4.8.1"
+    "socket.io": "^4.8.1",
+    "cors": "^2.8.5"
   }
 }
